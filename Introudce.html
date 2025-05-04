@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bergamoJun_Introduce</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #3498db;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.5rem;
+    }
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: left;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #3498db;
+    }
+    .profile-info {
+      border: 3px solid #f0f8ff;
+      background-color:#f0f8ff ;
+      border-radius: 18%;
+      align-items: center;
+      justify-content: right;
+      width: 500px;
+    }
+    .profile-info li::before{
+      content : '▶️ '
+    }
+    
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: '👉 ';
+    }
+    .con{
+      display: flex;
+      gap: 10px;
+    }
+
+    .trump img{
+      width:400px;
+      height: 400px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BergamoJun(박준희)의 Introduce Page</h1>
+    <p>멋사🦁 13기 FE 아기사자</p>
+  </header>
+  <main>
+    <div class="profile">
+      <img src="imgs/profile.jpg" alt="사진">
+      <div class="profile-info">
+        <ul>
+          <li>컴공인데 코딩 못함</li>
+          <li>취업하고싶은데 일하기는 싫음</li>
+          <li>돈 많은 잉여인간이 인생 목표</li>
+          <li>탐험가의 정신이 깃든 나무늘보</li>
+        </ul>
+      </div>
+    </div>
+    <section>
+      <h2>📌 기본 정보</h2>
+      <ul>
+        <li>이름: 박준희</li>
+        <li>나이: 25살</li>
+        <li>전공: 컴퓨터공학과</li>
+        <li>관심분야: 웹 개발, 정보보안, 데이터 분석</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎯 목표</h2>
+      <p>현재는 공기업 전산 직렬 취업을 목표로 자격증과 프로젝트 경험을 쌓고 있습니다.</p>
+    </section>
+
+    <section>
+      <h2>🛠️ 기술 스택</h2>
+      <ul>
+        <li>HTML / CSS / JavaScript</li>
+        <li>C++ / C</li>
+        <li>Java / Python</li>
+        <li>Git / GitHub</li>
+        <li>SQL 및 데이터베이스 기본 지식</li>
+      </ul>
+    </section>
+
+    <section>
+
+        <h2>⚡ 취미 및 관심사</h2>
+        <div class = "con">
+        <div class="lft">
+          <ul>
+            <li title="대부분의 게임을 좋아합니다.">게임</li>
+            <li title="PL(토트넘), 세리에(아탈란타BC) 응원중입니다.">해외축구</li>
+            <li title="이영도 작가의 책을 좋아합니다.">독서</li>
+            <li title="트럼프가 제 주식을 휴지 조각으로 만들고 있습니다... "><b>주식</b></li>
+          </ul>
+        </div>
+    <div class="rht">
+      <span class = "trump">
+        <img src="imgs/fuckyou.png" alt="ff">  
+      </span>
+    </div>
+      </div>
+    </section>
+    
+    <section>
+      <h2>📆 진행 중인 목표</h2>
+      <ul>
+        <li>정보처리기사 (5.13)</li>
+        <li>adsp (5.17)</li>
+        <li>한능검 1급 (5.24)</li>
+        <li>Sqld (5.31)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>❓만들어 보고 싶은 웹페이지</h2>
+      <ul>
+        <li>앱과 연동하여 모바일 배경화면에 시계형태 위젯으로 띄울 수 있는 플래너</li>
+        <li>X 크롤러를 통해 관심 축구팀의 새로운 뉴스를 받아볼 수 있는 사이트</li>
+      </ul>
+
+    </section>
+  </main>
+
+  <footer>
+    ⓒ last updated 2025.05.04 by Park Junhee. All rights reserved.
+  </footer>
+</body>
+</html>
